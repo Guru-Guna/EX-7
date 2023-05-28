@@ -16,8 +16,6 @@ To write the python program for simulating Traceroute command.
 ```
 # PROGRAM :
 ```
-Developed by : M.D.HARINI
-Register Number : 212222230043
 from scapy.all import*
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
